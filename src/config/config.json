@@ -1,0 +1,18 @@
+{
+  "mssql": {
+    "user": "loadmin",
+    "password": "CMswan@dm1n",
+    "server": "swandbgov.database.usgovcloudapi.net",
+    "database": "POS",
+    "options": {
+      "encrypt": true,
+      "enableArithAbort": true
+    },
+    "debug": {
+      "packet": true,
+      "data": true,
+      "payload": true,
+      "token": true
+    }
+  }
+}

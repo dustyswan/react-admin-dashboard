@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import Header from "../../components/Header";
 import PieChart from "../../components/PieChart";
-
+import React from 'react'; // Ensure React is imported
 const Pie = () => {
   return (
     <Box m="20px">

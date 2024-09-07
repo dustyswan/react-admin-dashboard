@@ -12,7 +12,7 @@ import GeographyChart from "../../components/GeographyChart";
 import BarChart from "../../components/BarChart";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
-
+import React from 'react'; // Ensure React is imported
 const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);

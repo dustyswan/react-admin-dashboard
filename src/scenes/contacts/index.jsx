@@ -4,7 +4,7 @@ import { tokens } from "../../theme";
 import { mockDataContacts } from "../../data/mockData";
 import Header from "../../components/Header";
 import { useTheme } from "@mui/material";
-
+import React from 'react'; // Ensure React is imported
 const Contacts = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);

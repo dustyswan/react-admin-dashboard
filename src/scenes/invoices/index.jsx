@@ -3,7 +3,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import { tokens } from "../../theme";
 import { mockDataInvoices } from "../../data/mockData";
 import Header from "../../components/Header";
-
+import React from 'react'; // Ensure React is imported
 const Invoices = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);

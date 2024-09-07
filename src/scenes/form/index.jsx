@@ -3,7 +3,7 @@ import { Formik } from "formik";
 import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Header from "../../components/Header";
-
+import React from 'react'; // Ensure React is imported
 const Form = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
 
